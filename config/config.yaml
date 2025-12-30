@@ -1,0 +1,27 @@
+# config.yaml
+env: development
+debug: true
+
+server:
+  host: 0.0.0.0
+  port: 8080
+
+# MySQL 配置（本地）
+mysql:
+  host: localhost
+  port: 3306
+  username: root
+  password: root
+  dbname: graduation_project
+  charset: utf8mb4
+  parseTime: true
+
+# Redis 配置（本地）
+redis:
+  host: localhost
+  port: 6379
+  password: ""
+  db: 0         # 默认DB
+
+# 其他配置...
+feature_flag: false
